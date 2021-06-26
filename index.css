@@ -22,8 +22,7 @@ a {
 }
 
 .name {
-	font-size: 30px; 
-/* 	here */
+	font-size: 30px;
 	padding: 7.5px 10px 7.5px 0;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -74,6 +73,12 @@ a {
 
 .active .underline {
 	display: block;
+}
+
+@media all and (max-width: 400px) {
+	.name {
+		font-size: 15px;
+	}
 }
 
 /* Tablet Menu */
@@ -127,18 +132,34 @@ a:hover {
   color: #fff;
 }
 
-section {
-  padding: 100px;
-  background: black ;
+#about {
+
+  background: #A4BFC5 ;
 }
 
-section h1 {
-  color: white;
+
+#about h1 {
+  color: black;
   text-align: center;
 	font-family: 'Montserrat', sans-serif;
-
+	padding: 150px;
+}
+#bg {
+	padding: 20px;
+	background-color: #FFE9D3 ;
+	text-align: center;
+/*	color: #AE7842;*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
 }
 
+#copyright {
+	background-color: #30313b;
+	color: #B6B399;
+	padding: 50px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
 
 /*
 .nav {
