@@ -77,7 +77,7 @@ a {
 
 @media all and (max-width: 400px) {
 	.name {
-		font-size: 15px;
+		font-size: 1em;
 	}
 }
 
