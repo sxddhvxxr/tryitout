@@ -22,7 +22,8 @@ a {
 }
 
 .name {
-	font-size: 30px;
+	font-size: 20px; 
+/* 	here */
 	padding: 7.5px 10px 7.5px 0;
 	font-family: 'Montserrat', sans-serif;
 }
