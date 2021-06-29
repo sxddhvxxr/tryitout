@@ -77,7 +77,7 @@ a {
 
 @media all and (max-width: 400px) {
 	.name {
-		font-size: 1em;
+		font-size: 15px;
 	}
 }
 
@@ -134,7 +134,7 @@ a:hover {
 
 #about {
 
-  background: #A4BFC5 ;
+  background: #fff ;
 }
 
 
@@ -144,9 +144,48 @@ a:hover {
 	font-family: 'Montserrat', sans-serif;
 	padding: 150px;
 }
+
+#intro {
+	text-align: center;
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	color: #C73662; /*#1ABE1A*/;
+	font-size: 1.2rem;
+
+}
+
+#biocontent strong {
+	margin: 0 10%;
+	text-align: center;
+	font-size: 1.6rem;
+	color: #EC7E9F;
+
+}
+
+#biocontent {
+	display: flex;
+	margin: 0 10%;
+}
+#biocontent img {
+	width: 20%;
+}
+
+#biocontent p {
+	
+	padding: 0 10%;
+	text-align: center;
+}
+
+hr {
+	width: 70%;
+	text-align: center;
+	color: gray;
+	opacity: 50%;
+}
+
 #bg {
 	padding: 20px;
-	background-color: #FFE9D3 ;
+	background-color: #fff ;
 	text-align: center;
 /*	color: #AE7842;*/
 	font-family: 'Montserrat', sans-serif;
@@ -156,9 +195,9 @@ a:hover {
 #copyright {
 	background-color: #30313b;
 	color: #B6B399;
+	font-family: 'Montserrat', sans-serif;
 	padding: 50px;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
 }
 
 /*
