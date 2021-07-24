@@ -30,7 +30,7 @@ ul strong {
 }
 
 ul strong:hover {
-	color: black;
+/*	color: black;*/
 	cursor: pointer;
 }
 
@@ -85,6 +85,12 @@ ul strong:hover {
 @media all and (max-width: 400px) {
 	.name {
 		font-size: 15px;
+	}
+}
+
+@media all and (max-width: 535px) {
+	#responsive-quote {
+		font-size: 0.7em;
 	}
 }
 
@@ -219,7 +225,28 @@ hr {
 
 iframe {
 	display: flex;
+	}
+
+@media all and (max-width: 600px) {
+	.container {
+	  position: relative;
+	  overflow: hidden;
+		width: 100%;
+	  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+	}
+
+
+	.responsive-iframe {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  width: 90%;
+	  height: 90%;
+	}
 }
+/* Then style the iframe to fit in the container div with full height and width */
 
 #copyright {
 	background-color: #30313b;
@@ -265,7 +292,7 @@ h3 {
 }
 
 @media all and (max-width: 632px) {
-	
+
 }
 
 
