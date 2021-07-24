@@ -14,7 +14,7 @@ body {
 	list-style-type: none;
 }
 
-a {
+ul a {
 	text-decoration: none;
 	color: white;
 }
@@ -23,6 +23,15 @@ a {
 	font-size: 30px;
 	padding: 7.5px 10px 7.5px 0;
 	font-family: 'Montserrat', sans-serif;
+}
+
+ul strong {
+	transition: 0.5s;
+}
+
+ul strong:hover {
+	color: black;
+	cursor: pointer;
 }
 
 .underline {
@@ -97,6 +106,7 @@ a {
 		position: relative;
 		display: block;
 		width: auto;
+		text-align: right;
 	}
 	.toggle {
 	display: none;	
@@ -109,7 +119,7 @@ a {
 */
 
 
-a:after {    
+ul a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -121,19 +131,22 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after { 
+ul a:hover:after { 
   width: 100%; 
   left: 0; 
 }
 
-a:hover {
+ul a:hover {
   color: #fff;
 }
 
+
+
+
 .about {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+/*	flex-wrap: wrap;
+*/	justify-content: space-between;
 	align-items: center;
 	text-align: right;
 	background: black;
@@ -179,7 +192,7 @@ a:hover {
 	text-align: center;
 }
 
-#biocontent strong {
+#shortbio {
 	margin: 0 10%;
 	text-align: center;
 	font-size: 1.6rem;
@@ -215,6 +228,46 @@ iframe {
 	padding: 50px;
 	text-align: center;
 }
+
+.faba {
+	display: flex;
+	font-size: 4em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.fa-facebook {
+/*	display: flex;
+*/	color: #4267B2;
+/*	display: inline-block;
+*/}
+
+.fa-twitter {
+/*	display: flex;
+*/	color: #1DA1F2;
+/*	display: inline-block;
+*/}
+
+.fa-instagram {
+/*	display: flex;
+*/	color: #fb3958;
+/*	display: inline-block;
+*/}
+
+.fa-linkedin-in {
+/*	display: flex;
+*/	color: #0077B5;
+/*	display: inline-block;
+*/}
+
+h3 {
+	color: black;
+}
+
+@media all and (max-width: 632px) {
+	
+}
+
 
 /*
 .nav {
