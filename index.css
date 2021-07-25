@@ -37,6 +37,8 @@ ul strong:hover {
 .underline {
 	padding: 0px;
 	font-size: 20px;
+		transition: all 1s ease out;
+
 }
 
 .underline::first-letter {
@@ -83,6 +85,7 @@ ul strong:hover {
 }
 
 @media all and (max-width: 400px) {
+
 	.name {
 		font-size: 15px;
 	}
@@ -201,7 +204,7 @@ ul a:hover {
 #shortbio {
 	margin: 0 10%;
 	text-align: center;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	color: #EC7E9F;
 	font-weight: 100%;
 	font-family: 'Source Sans Pro', sans-serif;	
@@ -222,6 +225,23 @@ hr {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 }
+
+.watch {
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.8rem;
+	color: #EC7E9F;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.watch a:hover {
+	opacity: 70%;
+}
+
+/*h4 a {
+	text-decoration: none;
+	color: black;
+}*/
 
 iframe {
 	display: flex;
@@ -287,13 +307,10 @@ iframe {
 /*	display: inline-block;
 */}
 
-h3 {
-	color: black;
-}
 
-@media all and (max-width: 632px) {
+/*@media all and (max-width: 632px) {
 
-}
+}*/
 
 
 /*
