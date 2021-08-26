@@ -6,6 +6,8 @@
 
 body {
   margin: 0 auto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -91,7 +93,7 @@ ul strong:hover {
 	}
 }
 
-@media all and (max-width: 535px) {
+@media all and (max-width: 666px) {
 	#responsive-quote {
 		font-size: 0.6em;
 	}
@@ -149,7 +151,12 @@ ul a:hover {
   color: #fff;
 }
 
-
+.header {
+	padding: 180px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+}
 
 
 .about {
@@ -245,6 +252,7 @@ hr {
 
 iframe {
 	display: flex;
+	padding-bottom: 20px;
 	}
 
 @media all and (max-width: 600px) {
@@ -281,6 +289,11 @@ iframe {
 	font-size: 4em;
 	flex-wrap: wrap;
 	justify-content: center;
+	opacity: 1.0;
+}
+
+.fab:hover {
+	opacity: 0.8;
 }
 
 .fa-facebook {
